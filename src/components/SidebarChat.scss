@@ -1,0 +1,17 @@
+.sidebarChat {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid lightslategray;
+    cursor: pointer;
+    &:hover {
+        background-color: #37c0f6;
+        color: whitesmoke;
+    }
+    &__info{
+        margin-left: 15px;
+        position: relative;
+        width: 100%;
+    }
+}
+    
